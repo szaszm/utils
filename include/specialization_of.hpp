@@ -15,4 +15,4 @@ template<typename T, template<typename...> typename Base>
 concept specialization_of = detail::is_specialization_of_impl<std::remove_cvref_t<T>, Base>::value;
 } // namespace utils
 
-#endif /* SPECIALIZTION_OF_HPP */
+#endif /* SPECIALIZATION_OF_HPP */
